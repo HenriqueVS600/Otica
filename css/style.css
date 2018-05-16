@@ -1,0 +1,81 @@
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+@media (min-width: 1000px) {
+	.brand-logo {
+		margin-left: 50px;
+	}
+}
+
+@media (min-width: 984px) {
+	.brand-logo {
+		margin-left: 50px;
+	}
+}
+
+
+@font-face {
+     font-family: slogan;
+     src: url('../fonts/slogan.ttf');
+}
+
+.slogan {
+	font:50px slogan;
+}
+
+.paralaxe{
+	position: relative;
+	/* Tamanho do monitor */
+	height: 100vh;
+}
+
+.paralaxe{
+	background: no-repeat url('../img/sunglasses-3359220_1920.jpg') 50% 0;
+	background-size: cover;
+	/* Paralaxe */
+	background-attachment: fixed;
+}
+
+.paralaxe span{
+	/* Alinhar texto verticalmente */
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	/* Texto e Sombra */
+	font-size: 3em;
+	color: #fff;
+	text-shadow: 3px 3px 3px rgba(0,0,0,.5);
+}
+
+.materialboxed {
+	padding-top: 50px;
+}
+
+
+.user-view {
+	height: 194px;
+}
+
+.background {
+	height: 300px;
+}
+
+body {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+main {
+	flex: 1 0 auto;
+}
+
+
+.hideme {
+	opacity:0;
+}
+
